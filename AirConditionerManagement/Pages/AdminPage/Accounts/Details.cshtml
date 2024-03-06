@@ -1,0 +1,44 @@
+﻿@page
+@model AirConditionerManagement.Pages.Accounts.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "/Pages/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>StaffMember</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.StaffMember.Password)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StaffMember.Password)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.StaffMember.FullName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StaffMember.FullName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.StaffMember.EmailAddress)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StaffMember.EmailAddress)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.StaffMember.Role)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StaffMember.Role)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.StaffMember?.MemberId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

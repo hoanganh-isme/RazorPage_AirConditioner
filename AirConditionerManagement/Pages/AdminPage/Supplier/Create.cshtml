@@ -1,0 +1,47 @@
+﻿@page
+@model AirConditionerManagement.Pages.AdminPage.Supplier.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "/Pages/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>SupplierCompany</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="SupplierCompany.SupplierId" class="control-label"></label>
+                <input asp-for="SupplierCompany.SupplierId" class="form-control" />
+                <span asp-validation-for="SupplierCompany.SupplierId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SupplierCompany.SupplierName" class="control-label"></label>
+                <input asp-for="SupplierCompany.SupplierName" class="form-control" />
+                <span asp-validation-for="SupplierCompany.SupplierName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SupplierCompany.SupplierDescription" class="control-label"></label>
+                <input asp-for="SupplierCompany.SupplierDescription" class="form-control" />
+                <span asp-validation-for="SupplierCompany.SupplierDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SupplierCompany.PlaceOfOrigin" class="control-label"></label>
+                <input asp-for="SupplierCompany.PlaceOfOrigin" class="form-control" />
+                <span asp-validation-for="SupplierCompany.PlaceOfOrigin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+

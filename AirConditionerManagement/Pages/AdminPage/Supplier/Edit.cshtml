@@ -1,0 +1,43 @@
+﻿@page
+@model AirConditionerManagement.Pages.AdminPage.Supplier.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "/Pages/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>SupplierCompany</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="SupplierCompany.SupplierId" />
+            <div class="form-group">
+                <label asp-for="SupplierCompany.SupplierName" class="control-label"></label>
+                <input asp-for="SupplierCompany.SupplierName" class="form-control" />
+                <span asp-validation-for="SupplierCompany.SupplierName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SupplierCompany.SupplierDescription" class="control-label"></label>
+                <input asp-for="SupplierCompany.SupplierDescription" class="form-control" />
+                <span asp-validation-for="SupplierCompany.SupplierDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SupplierCompany.PlaceOfOrigin" class="control-label"></label>
+                <input asp-for="SupplierCompany.PlaceOfOrigin" class="form-control" />
+                <span asp-validation-for="SupplierCompany.PlaceOfOrigin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+

@@ -1,0 +1,36 @@
+﻿@page
+@model AirConditionerManagement.Pages.UserPage.ListProductModel
+
+@{
+    ViewData["Title"] = "ListProduct";
+    Layout = "/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>List Product</h1>
+
+
+<div class="album py-5 bg-light">
+    <div class="container">
+
+        <div class="row" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+            @foreach (var item in Model.AirConditioner)
+            {
+                <div class="col-md-4" style="flex: 0 0 calc(33.33% - 15px); margin-bottom: 15px;">
+
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.Image)" width="100%" height="225" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;">Tên sản phẩm: @Html.DisplayFor(modelItem => item.AirConditionerName)</p>
+                            <p class="card-text">Bảo hành: @Html.DisplayFor(modelItem => item.Warranty)</p>
+                            <p class="card-text">Giá: @Html.DisplayFor(modelItem => item.DollarPrice)$</p>
+                            <p class="card-text">Âm thanh: @Html.DisplayFor(modelItem => item.SoundPressureLevel)</p>
+                            <p class="card-text">Hãng: @Html.DisplayFor(modelItem => item.Supplier.SupplierName)</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+

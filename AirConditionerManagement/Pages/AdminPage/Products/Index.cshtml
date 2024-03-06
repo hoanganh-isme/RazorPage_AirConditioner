@@ -1,0 +1,91 @@
+﻿@page
+@model AirConditionerManagement.Pages.AdminPage.Products.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "/Pages/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>AirConditioner Management</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form method="get" class="form-inline">
+    <div class="input-group">
+        <input type="text" name="searchKeyword" class="form-control" style="width: 200px" placeholder="Enter keyword...">
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên sản phẩm 
+            </th>
+            <th style="white-space: nowrap;">
+               Bảo hành
+            </th>
+            <th>
+                Âm thanh
+            </th>
+            <th>
+                Hình ảnh
+            </th>
+            <th>
+                Tính năng
+            </th>
+            <th style ="white-space: nowrap;">
+                Số lượng
+            </th>
+            <th>
+                Giá
+            </th>
+            <th>
+                Hãng
+            </th>
+            <th>
+                Thao tác
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.AirConditioner) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AirConditionerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Warranty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoundPressureLevel)
+            </td>
+            <td>               
+                    <img src="@item.Image" alt="Air Conditioner Image" style="max-width: 100px; max-height: 100px;" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FeatureFunction)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DollarPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Supplier.SupplierName)
+            </td>
+                <td style="white-space: nowrap;">
+                <a asp-page="./Edit" asp-route-id="@item.AirConditionerId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.AirConditionerId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.AirConditionerId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

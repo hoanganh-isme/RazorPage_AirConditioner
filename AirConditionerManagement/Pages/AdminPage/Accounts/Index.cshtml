@@ -1,0 +1,71 @@
+﻿@page
+@model AirConditionerManagement.Pages.Accounts.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "/Pages/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Account Management</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên               
+            </th>
+            <th>
+                Mật khẩu
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StaffMember[0].Role)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.StaffMember) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                ***
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAddress)
+            </td>
+                <td>
+                    @if (item.Role == 1)
+                    {
+                        <span>Admin</span>
+                    }
+                    else if (item.Role == 2)
+                    {
+                        <span>Staff</span>
+                    }
+                    else if (item.Role == 3)
+                    {
+                        <span>Customer</span>
+                    }
+                </td>
+                <td>
+                    @if (item.Role != 1)
+                    {
+                        <text>
+                            <a asp-page="./Edit" asp-route-id="@item.MemberId">Edit</a> |
+                            <a asp-page="./Details" asp-route-id="@item.MemberId">Details</a> |
+                            <a asp-page="./Delete" asp-route-id="@item.MemberId">Delete</a>
+                        </text>
+                    }
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

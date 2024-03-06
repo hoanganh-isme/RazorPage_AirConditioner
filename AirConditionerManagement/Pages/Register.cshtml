@@ -1,0 +1,45 @@
+﻿@page
+@model AirConditionerManagement.Pages.RegisterModel
+@{
+    Layout = null;
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Register.css" />
+</head>
+
+<div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+        <form method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input asp-for="StaffMember.FullName" class="form-control" placeholder="Enter your name" required />
+                    <span asp-validation-for="StaffMember.FullName" class="text-danger"></span>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input asp-for="StaffMember.EmailAddress" class="form-control" placeholder="Enter your email" required />
+                    <span asp-validation-for="StaffMember.EmailAddress" class="text-danger"></span>
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input asp-for="StaffMember.Password" class="form-control" placeholder="Enter your password" required />
+                    <span asp-validation-for="StaffMember.Password" class="text-danger"></span>
+                </div>
+                
+                    <!-- Giá trị mặc định là 3 và disabled để không cho người dùng thay đổi -->
+                  <input type="hidden" asp-for="StaffMember.Role" value="3" /> <!-- Sử dụng hidden field để truyền giá trị vào model -->
+                    <span asp-validation-for="StaffMember.Role" class="text-danger"></span>
+                
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+        <div class="login">
+            Have a account? <a href="Login">SignIn now</a>
+        </div>
+    </div>
+</div>

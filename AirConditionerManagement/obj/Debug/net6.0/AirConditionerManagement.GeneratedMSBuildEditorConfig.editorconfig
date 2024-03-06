@@ -1,0 +1,127 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AirConditionerManagement
+build_property.RootNamespace = AirConditionerManagement
+build_property.ProjectDir = D:\FPT\Spring2024\PRN221\Code\Asg2_AirConditioner\AirConditionerManagement\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\FPT\Spring2024\PRN221\Code\Asg2_AirConditioner\AirConditionerManagement
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Accounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXEFjY291bnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Accounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXEFjY291bnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Accounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXEFjY291bnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Accounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXEFjY291bnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXEFjY291bnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXFByb2R1Y3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXFByb2R1Y3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXFByb2R1Y3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXFByb2R1Y3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXFByb2R1Y3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Supplier/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXFN1cHBsaWVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Supplier/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXFN1cHBsaWVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Supplier/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXFN1cHBsaWVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Supplier/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXFN1cHBsaWVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/AdminPage/Supplier/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlXFN1cHBsaWVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/UserPage/ListProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VcTGlzdFByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gxk0oqg126
+
+[D:/FPT/Spring2024/PRN221/Code/Asg2_AirConditioner/AirConditionerManagement/Pages/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-hwf3ca8bri
